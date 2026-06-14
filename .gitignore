@@ -1,0 +1,22 @@
+# 이클립스 워크스페이스 메타데이터 (환경 종속적, 자동 생성)
+.metadata/
+
+# 톰캣 서버 설정 (자동 생성)
+Servers/
+
+# 빌드 산출물 (컴파일된 클래스)
+build/
+target/
+*.class
+
+# 이클립스 프로젝트 설정
+.settings/
+bin/
+
+# DBeaver 접속 정보 (자격증명 포함)
+.dbeaver/
+*.bak
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
