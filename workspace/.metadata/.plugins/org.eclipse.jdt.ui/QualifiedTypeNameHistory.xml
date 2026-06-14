@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.net.URLEncoder"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.app.member.controller.JoinController"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Result"/>
+    <fullyQualifiedTypeName name="javax.xml.transform.Result"/>
+    <fullyQualifiedTypeName name="com.app.Result"/>
+    <fullyQualifiedTypeName name="com.app.Action"/>
+    <fullyQualifiedTypeName name="com.app.member.domain.MemberVO"/>
+    <fullyQualifiedTypeName name="com.app.member.repository.MemberDAO"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Executable"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.x.protobuf.MysqlxPrepare.Execute"/>
+</qualifiedTypeNameHistroy>
