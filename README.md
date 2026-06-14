@@ -1,19 +1,3 @@
-# JSP 학습 노트
-
-서블릿과 JSP 기초부터 MVC 패턴, MyBatis까지 학습하면서 정리한 개념과 실습 노트입니다.
-
-## 목차
-
-1. [JSP와 서블릿](#01-jsp와-서블릿)
-2. [웹 동작 구조 (WAS)](#02-웹-동작-구조-was)
-3. [요청 방식과 응답 방식](#03-요청-방식과-응답-방식)
-4. [서블릿 기초 실습](#04-서블릿-기초-실습)
-5. [MVC 패턴](#05-mvc-패턴)
-6. [DBCP와 JNDI](#06-dbcp와-jndi)
-7. [MyBatis](#07-mybatis)
-
----
-
 ## 01. JSP와 서블릿
 
 > 전제: **서블릿은 JAVA, JSP는 HTML.** JSP는 조회 따위, 서블릿은 처리 따위를 맡는다.
@@ -81,8 +65,6 @@ resp.sendRedirect(req.getContextPath() + "/ex02-result");
 
 ## 04. 서블릿 기초 실습
 
-`a-intro` 프로젝트에서 서블릿의 요청 처리와 응답 방식을 실습했다.
-
 ```java
 public class Ex02 extends HttpServlet {
     // GET — 입력 화면으로 forward
@@ -101,7 +83,7 @@ public class Ex02 extends HttpServlet {
 ```
 
 - `req.getParameter("name")`으로 폼 입력값을 받는다.
-- 실습 주제: 정수 2개 덧셈, 과일 이름·가격 출력, 지역명 분기 출력, 로그인 검사(성공 시 환영 / 실패 시 로그인 화면으로 복귀).
+- 실습: 정수 2개 덧셈, 과일 이름·가격 출력, 지역명 분기 출력, 로그인 검사(성공 시 환영 / 실패 시 로그인 화면으로 복귀).
 
 ---
 
